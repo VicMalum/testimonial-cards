@@ -1,0 +1,36 @@
+body {
+    max-height: 100vh;
+}
+
+.card-container {
+    border: 5px solid black;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    transition: 0.25s;
+    
+}
+
+.card-container p, h3, img {
+    margin: 10px;
+}
+
+img {
+    width: 10vh;
+    height: auto;
+}
+
+.card-container:hover {
+    border: gray;
+    background-color: black;
+    color: white;
+    height: 150%;
+}
+
+@media screen and (min-width=800px) {
+    .card-container {
+        max-width: 60%;
+    }
+    
+}
